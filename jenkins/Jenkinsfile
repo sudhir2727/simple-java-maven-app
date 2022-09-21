@@ -21,9 +21,9 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         }
-        stage("Stage complete"){
+        stage("newbranch "){
             steps {
-                echo 'completed .This should be the final build '
+                echo 'This is from new branch git repo  '
             }	
         }
     }
