@@ -21,9 +21,9 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         }
-        stage("Stage complete"){
+        stage("Multibranch-pipeline-withmultigit"){
             steps {
-                echo 'completed .This should be the final build '
+                echo 'Testing Multibranch-pipeline-withmultigit'
             }	
         }
     }
